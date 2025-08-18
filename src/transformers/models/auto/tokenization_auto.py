@@ -477,6 +477,7 @@ TOKENIZER_MAPPING_NAMES = OrderedDict[str, tuple[Optional[str], Optional[str]]](
         ("olmo", (None, "GPTNeoXTokenizerFast" if is_tokenizers_available() else None)),
         ("olmo2", (None, "GPTNeoXTokenizerFast" if is_tokenizers_available() else None)),
         ("olmoe", (None, "GPTNeoXTokenizerFast" if is_tokenizers_available() else None)),
+        ("olmoe2", (None, "GPTNeoXTokenizerFast" if is_tokenizers_available() else None)),
         (
             "omdet-turbo",
             ("CLIPTokenizer", "CLIPTokenizerFast" if is_tokenizers_available() else None),
