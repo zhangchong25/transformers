@@ -684,6 +684,8 @@
       - local: in_translation
         title: OLMoE2
       - local: in_translation
+        title: OLMoE2My
+      - local: in_translation
         title: Open-Llama
       - local: in_translation
         title: OPT

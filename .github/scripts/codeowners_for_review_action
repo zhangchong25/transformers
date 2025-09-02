@@ -139,6 +139,7 @@ trainer_utils.py @zach-huggingface @SunMarc
 /src/transformers/models/olmo2/mod*_olmo2* @ArthurZucker
 /src/transformers/models/olmoe/mod*_olmoe* @ArthurZucker
 /src/transformers/models/olmoe2/mod*_olmoe2* @ArthurZucker
+/src/transformers/models/olmoe2my/mod*_olmoe2my* @ArthurZucker
 /src/transformers/models/open_llama/mod*_open_llama* @ArthurZucker
 /src/transformers/models/opt/mod*_opt* @ArthurZucker
 /src/transformers/models/pegasus/mod*_pegasus* @ArthurZucker
