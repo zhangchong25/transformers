@@ -46,7 +46,7 @@ class Olmoe2MySparseMoeBlock(nn.Module):
         hidden_states = hidden_states.view(-1, hidden_dim)
         # router_logits: (batch * sequence_length, n_experts)
         # router_logits = self.gate(hidden_states)
-        router_logits = torch.stack([gate(hidden_states) for gate in self.gate], dim=1)
+        router_logits = torch.cat([gate(hidden_states) for gate in self.gate], dim=1)
         # bp()
 
         # swj
