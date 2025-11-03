@@ -651,6 +651,8 @@
         title: Qwen3
       - local: model_doc/qwen3_moe
         title: Qwen3MoE
+      - local: model_doc/qwen3_moe_my
+        title: Qwen3MoEMy
       - local: model_doc/rag
         title: RAG
       - local: model_doc/realm

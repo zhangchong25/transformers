@@ -717,6 +717,8 @@
         title: Qwen3
       - local: in_translation
         title: Qwen3MoE
+      - local: in_translation
+        title: Qwen3MoEMy
       - local: model_doc/rag
         title: RAG
       - local: in_translation
